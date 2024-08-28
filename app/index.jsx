@@ -3,7 +3,7 @@ import { Text, View, Image} from "react-native";
 export default function Index() {
 
   return (
-    <View className="flex flex-1 pt-9 items-center bg-gray-200">
+    <View className="flex flex-1 pt-7 items-center bg-gray-400">
       <Image source={require('../assets/images/chainswaman.jpg')} className="w-full object-cover h-[550]"/>
 
       <Text className="text-xl font-medium mt-5">Chainswa Man World</Text>

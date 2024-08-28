@@ -31,6 +31,7 @@ const HomeBody = () => {
       </View>
 
       <View className="p-2 mt-3">
+        <Text className="pb-2 px-4 text-lg tracking-tighter font-medium">Top trending</Text>
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}

@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeTop = () => {
   return (
-    <View className="w-full px-4 flex items-center justify-center space-y-8">
+    <View className="w-full px-4 flex items-center justify-center space-y-5">
       <View className="flex w-full flex-row items-center justify-between ">
         <Image
           source={require("../../assets/images/menu.png")}
@@ -16,7 +16,7 @@ const HomeTop = () => {
       </View>
 
       <View className="w-full relative">
-        <TextInput placeholder="Search" className="border border-zinc-300 px-4 py-3 rounded-xl"/>
+        <TextInput placeholder="Search" className="border border-zinc-200 px-4 py-3 rounded-xl"/>
 
         <Image source={require('../../assets/images/search.png')} className="absolute w-8 h-8 right-2 top-2"/>
       </View>
