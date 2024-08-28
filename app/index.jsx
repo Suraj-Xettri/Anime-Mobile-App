@@ -1,12 +1,16 @@
-import { StatusBar, Text, View } from "react-native";
-import { fetchInitialDeals } from "../components/ajiax.js";
+import { Text, View } from "react-native";
+import DealList from "../components/dealList.jsx";
+import data from "../data/data.js";
 export default function Index() {
-  const res = fetchInitialDeals
-  console.log(res)
+ 
+
   return (
     <View className="flex flex-1 items-center justify-center bg-gray-200">
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {data ? (
+        <DealList data={data} /> // Render DealList only if data is not null
+      ) : (
+        <Text>Loading...</Text> // Display a loading message or spinner while data is being fetched
+      )}
     </View>
   );
 }
