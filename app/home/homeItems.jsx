@@ -8,7 +8,7 @@ import Feedback from "./feedback";
 const Home = () => {
   return (
     <SafeAreaView className='flex-1'>
-      <ScrollView className="pt-10 bg-[#d7d5d5] h-full">
+      <ScrollView className="pt-10 bg-[#E6E6E6] h-full">
         <HomeTop />
         <HomeBody />
         <HomeSecond/>

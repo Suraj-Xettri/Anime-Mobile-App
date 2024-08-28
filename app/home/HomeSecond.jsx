@@ -39,11 +39,11 @@ const HomeSecond = () => {
     <View className="mt-5">
       <Text className="pb-2 px-4 text-lg tracking-tighter font-medium">New Episode Release</Text>
 
-      <View className="flex mb-20 flex-row space-y-3 flex-wrap mt-2">
+      <View className="flex  flex-row space-y-3 flex-wrap mt-2">
         {data.map((item, index) => (
           <View
             key={index}
-            className="rounded-xl bg-white mx-2 overflow-hidden"
+            className="rounded-xl bg-white mx-2 py-2 overflow-hidden"
             style={{ width: 174 }}
           >
             <Image source={item.image} className="w-full h-[200] rounded-xl" />
